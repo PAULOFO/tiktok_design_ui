@@ -3,12 +3,12 @@ import 'package:flutter/gestures.dart';
 import 'package:video_player/video_player.dart';
 import 'dart:math' as math;
 
-class Home extends StatefulWidget {
+class HomePage extends StatefulWidget {
   @override
   _HomeState createState() => _HomeState();
 }
 
-class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
+class _HomeState extends State<HomePage> with SingleTickerProviderStateMixin {
   bool abo = false;
   bool foryou = true;
   bool play = true;

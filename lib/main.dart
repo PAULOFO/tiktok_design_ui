@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:tiktok_design_ui/screens/home_page.dart';
+import 'package:tiktok_design_ui/screens/intro_base_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,10 +19,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Tik Tok UI',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: Colors.white,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Home(),
+      home: IntroBaseScreen(),
+      //home: Home(),
     );
   }
 }
